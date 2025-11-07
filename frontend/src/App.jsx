@@ -3,7 +3,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import JudgePage from "./pages/JudgePage";
 import DirectorPage from "./pages/DirectorPage";
-
+//This is the default function of the app
 export default function App() {
   const [user, setUser] = useState(null);
   const [showLogin, setShowLogin] = useState(false); // toggle between signup and login
